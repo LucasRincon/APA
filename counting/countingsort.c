@@ -80,7 +80,6 @@ int main()
 	if (vetor[i] < min)
 	   min = vetor[i];
     }
-    printf("MIN= %d", min);
 
     if (min < 0){
 	   modulo = absolute(min);
